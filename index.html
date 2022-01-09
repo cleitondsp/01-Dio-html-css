@@ -3,29 +3,68 @@
    <head>
       <meta charset="utf-8">
       <title>Cleiton da Silva Paula</title>
-      <link rel="stylesheet" href="style.css>"
+      <style>
+          body {
+              background: rgb(223, 223, 223);
+              max-width: 900px;
+              font-family: verdana;
+              margin: auto;
+          }
+          #title, .subtitle, .post_title {
+            color: blue;
+          }
+
+          .post_title {
+            font-size: 16px;
+            font-style: italic;
+            margin: 0;
+            margin-bottom: 15px;
+          }
+
+          .post_content {
+                margin: 0px;
+                margin-bottom: 15px;
+                text-align: justify;
+          }
+
+          .post {
+              background: white;
+              padding: 15px;
+              border: 3px solid black;
+              margin-bottom: 15px;
+          }
+
+          .post_img {
+              margin-bottom: 15px;
+          }
+
+          .contacts {
+              list-style-type: none;
+              padding-left: 15px;
+          }
+      </style>
    </head>
    <body>
        <header>
-           <img src="som-goku.jpg" alt="Foto do Goku">
+           <img src="som-goku.jpg" alt="Foto do Goku" class="post_img">
            <h1 id="title">Cleiton da Silva</h1>
        </header>
        <section>
            <header>
                 <h2 class="subtitle">Posts</h2>
            </header>
-           <article>
+           <article class="post">
                 <header>
                     <h3 class="post_title">Post #1</h3>
                     <img src="fundo.jpg">
                 </header>
-                <p> 
+                <p class="post_content"> 
                     There are many variations of passages of <a href="https://www.linkedin.com/in/cleiton-silva-666527208/" target="_blank">CLEITON</a> available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything <a href="mailto:csp_visual@yahoo.com.br">EMAIL</a> hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
                 </p>
             </article>
        </section>
        <footer>
-           <ul>
+           <ul class="contacts">
                <li>
                    <a href="mailto:cspvisual@yahoo.com.br>" target="_blank">csp_visual@yahoo.com.br</a>
                </li>
